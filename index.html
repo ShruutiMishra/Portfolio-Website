@@ -5,32 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+
 </head>
 <body>
-        <nav>
+        <nav class="nav">
             <h1>Shruti Mishra</h1>
             <ul class="nav-items">
-                <li class="nav-item"><a href="#AboutMe">About Me</a></li>
+                <li class="nav-item"><a href="#AboutMe">AboutMe</a></li>
                 <li class="nav-item"><a href="#Projects">Projects</a></li>
                 <li class="nav-item"><a href="#Skills">Skills</a></li>
                 <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#Hobbies">Hobbies</a></li>
             </ul>   
         </nav>
-        <main>
+        <div class="container">
             <section id="about-me">
                 <div class="about-me-container">
                     <div class="about-me-text-container">
-                        <h2>About Me</h2>
+                        <h2 class="about-me-section-header">About Me:</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing que laboriosam veritatis eveniet enim molestias ex ea excepturi due dicta, quasi temporibus! Id, at?</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing Deserunt numquam nesciunt magni officia. Harum illum quos molestiae tempo aliquam itaque cupiditate id.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.re odit, ipsa quasi neque assumenda dicta eius, dolore consectetur similique? Fugiat, quod  incidunt reprehenderit sed.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisiosam necessitatibus quos quasi perspiciatis, eveniet, cum reiciendis adipisci voluptas quis animi? Cum dolo</p>
                     </div>
-                    <img src="./assets/images/saitama-8211499_640.png" alt="its me" class="saitama"/>
+                        <img src="./assets/images/saitama-8211499_640.png" alt="its me" class="saitama"/>
                 </div>
             </section>
-        </main>
-    
-    
+            <section id="my-projects" class="projects-section">
+                    <h2 class="projects-section-header">My projects:</h2>
+                    <div class="my-project-grid">
+                        <a href="https://shruutimishra.github.io/Tribute-page/" target="_blank" class="project-item">
+                            <img src="./assets/images/tribute.png" alt="sachin tendulkar tribute page" class="project-image">
+                            <p class="project-title">Tribute Page</p>
+                        </a>
+                        <a href="https://shruutimishra.github.io/Role-playing-game/" target="_blank" class="project-item">
+                            <img src="./assets/images/role-playing.png" alt="fictional online game" class="project-image">
+                            <p class="project-title">Role Playing Game</p>
+                        </a>
+                        <a href="https://shruutimishra.github.io/Drum-kit/" target="_blank" class="project-item">
+                            <img src="./assets/images/drum-kit.png" alt="drum kits" class="project-image">
+                            <p class="project-title">Drum Kit</p>
+                        </a>
+                        <a href="https://shruutimishra.github.io/Survey-form/" target="_blank" class="project-item">
+                            <img src="./assets/images/survey.png" class="project-image">
+                            <p class="project-title">Static Survey Form</p>
+                        </a>
+                    </div>
+                    <button class="show-more-button">Show More</button>
+            </section>
+            <section id="my-contact" class="contact-section">
+                <div class="contact-header">
+                    <h2>Let's connect</h2>
+                    <p>let's all share our knowledge and grow together</p>
+                </div>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/shruutimishra/" target="_blank" class="btn class-details">
+                        <i class="bi bi-linkedin"></i>LinkedIn
+                    </a>
+                    <a href="shrutisaurav04@gmail.com" target="_blank" class="btn class-details">
+                        <i class="bi bi-google"></i>Gmail
+                    </a>
+                    <a href="https://github.com/ShruutiMishra" target="_blank" class="btn class-details">
+                        <i class="bi bi-github"></i>GitHub
+                    </a>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p>This portfolio project is aimed to show my skills based on the projects that have been made so far.
+                Different subsections will be added as its an ongoing project.
+            </p>
+        </footer>
 </body>
 </html>
